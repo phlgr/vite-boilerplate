@@ -12,7 +12,7 @@
     "test": "prettier --check . && eslint . && stylelint \"**/*.css\"",
     "start": "node dist/server.js",
     "storybook": "start-storybook -p 6006",
-    "storybook:build": "build-storybook"
+    "storybook:build": "build-storybook -o dist/storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
