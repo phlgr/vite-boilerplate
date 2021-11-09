@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import styles from './App.module.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App(): JSX.Element {
   const [count, setCount] = useState<number>(0);
@@ -39,14 +39,14 @@ function App(): JSX.Element {
               Vite Docs
             </a>
           </p>
-          <Switch>
+          <Routes>
             <Route path="/about">
               <main>About</main>
             </Route>
             <Route path="/">
               <main>Home</main>
             </Route>
-          </Switch>
+          </Routes>
         </header>
       </div>
     </BrowserRouter>
