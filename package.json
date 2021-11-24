@@ -36,7 +36,7 @@
     "lint-staged": "^11.1.1",
     "prettier": "2.3.2",
     "storybook-builder-vite": "^0.0.12",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0",
     "ts-node-dev": "^1.1.8",
