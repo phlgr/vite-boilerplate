@@ -2,7 +2,6 @@
   "compilerOptions": {
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "jsx": "react",
@@ -10,9 +9,6 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "noEmit": true,
-    "noImplicitReturns": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
     "resolveJsonModule": true,
     "skipLibCheck": false,
     "sourceMap": true,
@@ -20,14 +16,10 @@
     "target": "ESNext",
     "types": [
       "vite/client",
-      "node",
       "jest",
       "@types/testing-library__jest-dom",
       "@types/react"
     ]
   },
-  "include": ["./src", "jest.setup.js"],
-  "typeAcquisition": {
-    "include": ["jest"]
-  }
+  "include": ["src/", "jest.setup.js"]
 }
