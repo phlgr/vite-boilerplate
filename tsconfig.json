@@ -13,7 +13,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": false,
     "isolatedModules": true,
     "skipLibCheck": false,
