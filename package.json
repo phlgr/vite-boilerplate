@@ -10,7 +10,7 @@
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\" \"npm run storybook\"",
     "serve": "vite preview",
     "prepare": "husky install",
-    "test": "prettier --check . && eslint . && stylelint \"**/*.css\"",
+    "test": "tsc && prettier --check . && eslint . && stylelint \"**/*.css\"",
     "start": "node dist/server.js",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o dist/storybook"
