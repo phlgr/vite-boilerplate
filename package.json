@@ -12,6 +12,7 @@
     "prepare": "husky install",
     "test": "prettier --check . && eslint . && stylelint \"**/*.css\" && npm run jest",
     "jest": "jest",
+    "jest:watch": "jest --watch",
     "start": "node dist/server.js",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -o dist/storybook"
@@ -26,6 +27,7 @@
     "@storybook/addon-links": "^6.4.0-alpha.32",
     "@storybook/react": "^6.4.0-alpha.32",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.0.3",
     "@types/node": "^16.4.13",
